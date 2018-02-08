@@ -1,0 +1,7 @@
+C:\Users\whois\source\repos\Company2\Company2\bin\Debug\Company2.exe.config
+C:\Users\whois\source\repos\Company2\Company2\bin\Debug\Company2.exe
+C:\Users\whois\source\repos\Company2\Company2\bin\Debug\Company2.pdb
+C:\Users\whois\source\repos\Company2\Company2\obj\Debug\Company2.csprojResolveAssemblyReference.cache
+C:\Users\whois\source\repos\Company2\Company2\obj\Debug\Company2.csproj.CoreCompileInputs.cache
+C:\Users\whois\source\repos\Company2\Company2\obj\Debug\Company2.exe
+C:\Users\whois\source\repos\Company2\Company2\obj\Debug\Company2.pdb
