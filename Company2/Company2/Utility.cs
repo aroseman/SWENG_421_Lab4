@@ -15,11 +15,19 @@ namespace Company2
         }
         public List<ProductIF> Sort(List<ProductIF> data)
         {
+            List<ProductIF> sortedList = new List<ProductIF>();
             if(SortName != null)
             {
-                
+                var type = Type.GetType(SortName);
+                Sort sorter = (Sort)Activator.CreateInstance(type);
+                sortedList = sorter.sort(data);
             }
-            return null;
+            else
+            {
+                Sort sorter = new QuickSort();
+                sortedList = sorter.sort(data);
+            }
+            return sortedList;
         }
     }
 }

@@ -8,5 +8,29 @@ namespace Company2
 {
     class BubbleSort : Sort
     {
+
+        
+        public  static void sort(List<ProductIF> data)
+        {
+
+            ProductIF temp;
+
+            for (int write = 0; write < data.Count; write++)
+            {
+                for (int sort = 0; sort < data.Count - 1; sort++)
+                {
+                    if (data[sort].GetPrice() > data[sort + 1].GetPrice())
+                    {
+                        temp = data[sort + 1];
+                        data[sort + 1] = data[sort];
+                        data[sort] = temp;
+                    }
+                }
+            }
+
+        }
+
+        
+
     }
 }

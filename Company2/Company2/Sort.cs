@@ -8,5 +8,11 @@ namespace Company2
 {
     abstract class Sort : Utility
     {
+        public Sort(string sortName) : base(sortName)
+        {
+        }
+
+        public abstract List<ProductIF> sort(List<ProductIF> data);
+
     }
 }
