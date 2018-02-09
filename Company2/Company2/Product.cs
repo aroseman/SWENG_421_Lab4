@@ -8,17 +8,17 @@ namespace Company2
 {
     class Product : ProductIF
     {
-        private string ID;
+        private int ID;
         private string Name;
         private double Price;
 
-        public Product(string id, string name, double price)
+        public Product(int id, string name, double price)
         {
             this.ID = id;
             this.Name = name;
             this.Price = price;
         }
-        public string GetID()
+        public int GetID()
         {
             return this.ID;
         }

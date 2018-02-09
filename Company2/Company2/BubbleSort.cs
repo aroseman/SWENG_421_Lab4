@@ -8,9 +8,9 @@ namespace Company2
 {
     class BubbleSort : Sort
     {
-
+        public BubbleSort(String sortName) : base(sortName) { }
         
-        public  static void sort(List<ProductIF> data)
+        public  override List<ProductIF> sort(List<ProductIF> data)
         {
 
             ProductIF temp;
@@ -27,7 +27,7 @@ namespace Company2
                     }
                 }
             }
-
+            return data;
         }
 
         

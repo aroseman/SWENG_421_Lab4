@@ -13,18 +13,16 @@ namespace Company2
         {
         }
 
-        public override List<ProductIF> Sort(List<Product> data)
+        public override List<ProductIF> sort(List<ProductIF> data)
         {
-            //turns the product list into an array for easier sorting. 
-            productArray = data.ToArray();
+            
 
-            if (SortName != null)
-            {
+            
                 Console.WriteLine("Does the QuickSort");
 
 
 
-            }
+            
             return null;
         }
         private void mySort(int left, int right)
